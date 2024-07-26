@@ -6,6 +6,9 @@
     width: 120%;
     background-color: rgb(235,254,255);
 }
+html{
+    scroll-behavior: smooth;
+}
 body
 {
    overflow-x: hidden;
@@ -139,4 +142,7 @@ span
     background-color: white;
 
 }
-
+.cc4
+{
+    margin-left: 10%;
+}
