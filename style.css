@@ -36,7 +36,7 @@ ul
 }
 a:hover
 {
-    scale: 1.5;
+    font-size: 30px;
     color: black;
 }
 .hi
@@ -133,13 +133,36 @@ span
     position: absolute;
     text-align: center;
 }
+.project
+{
+    height: 80%;
+    width: 100%;
+    top: 250%;
+    position: absolute;
+    background-color: white;
+}
+.m1
+{
+    height: 450px;
+    width:450px;
+    left: 35%;
+    position: absolute;
+}
+.mn1
+{
+    top: 50%;
+    left: 5%;
+    font-size: xx-large;
+    color: black;
+    position: absolute;
+}
 .c4
 {
     height: 70%;
     width: 100%;
-    top: 260%;
+    top: 330%;
     position: absolute;
-    background-color: white;
+    background-color: whitesmoke;
 
 }
 .cc4

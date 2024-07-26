@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manikandan - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-NMVqBZ-OusV3Vc5VkiO15EOsDh49n67tjg&s">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQitnc_lW_7v2iN8LvRxr9am98mnu-JpX2Bjw&s">
 </head>
 <body>
     <div class="top">
-        <div class="name"><h2 style="font-size: 40px;"><span style="color: red;">M</span>anikandan</h2></div>
+        <div class="name"><h2 style="font-size: 40px;"><span style="color: red;">M</span>ANIKANDAN</h2></div>
             <div class="home">
             <ul>
                 <li><a href="#id1">Home</a></li>
@@ -30,14 +32,14 @@
         <p>by myself upto my knowledge .I have learned the new</p>
         <p>contents while creating this webpage.</p> 
         <button class="but1">
-            Download CV
+            Download CV <i class="fa fa-download" aria-hidden="true"></i>
         </button>
         <button class="but2">
             Explore More
         </button>
     </div>
     <div class="i">
-        <img src="p1.jpg" class="im">
+        <img src="p11.png" class="im">
     </div>
     <div class="c2" id="id2">
         <img src="p2.jpg" class="p2">
@@ -50,9 +52,15 @@
         <p>new concepts in coding topics.</p></div>
     </div>
     <div class="c3" id="id3">
-        <h2 style="color: aquamarine; font-size: 40px;">Skills</h2>
+        <h2 style="color: aquamarine; font-size: 40px;">Skill</h2>
         <h1 style="color: black; font-size: 50px;">What I  am capable of ?</h1>
         <img src="p3.jpg" style="height: 30%;width: 70%;">
+    </div>
+    <div class="project">
+        <h1 style="text-align: center;color: aqua;">Projects</h1>
+        <h2 style="text-align: center;color: black;">What I have made?</h2>
+        <img class="m1"src="mini2.jpg">
+        <h2 class="mn1">Automation in Railway System</h2>
     </div>
     <div class="c4" id="id5">
         <div class="cc4">
@@ -64,5 +72,20 @@
         <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="data:image/png;base64,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"style="height: 50px;width: 50px;"></a>
         <p style="font-size: 20px;">Copyright &copy;2023. Develope & Designed by Manikandan</p>
     </div></div>
+    <script>
+        ScrollReveal({ reset: true ,
+            distance:'80px',
+            delay:20,
+            duration:1000
+        });
+        ScrollReveal().reveal('.content',{delay: 200,origin:'left'});
+        ScrollReveal().reveal('.i',{delay: 200,origin:'right'});
+        ScrollReveal().reveal('.p2',{delay: 200,origin:'left'});
+        ScrollReveal().reveal('.cp2',{delay: 200,origin:'right'});
+        ScrollReveal().reveal('.c3',{delay: 200,origin:'right'});
+        ScrollReveal().reveal('.c4',{delay: 200,origin:'left'});
+        ScrollReveal().reveal('..mn1',{delay: 200,origin:'left'});
+        ScrollReveal().reveal('.m1',{delay: 200,origin:'right'});
+    </script>
 </body>
 </html>
