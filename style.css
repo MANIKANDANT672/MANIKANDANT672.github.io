@@ -1,0 +1,142 @@
+.top
+{
+    display: flex;
+    justify-content: space-evenly;
+    height:20%;
+    width: 120%;
+    background-color: rgb(235,254,255);
+}
+body
+{
+   overflow-x: hidden;
+    background-color: rgb(235,254,255);
+}
+.name
+{
+    padding-top: 25px;
+    padding-right: 20px;
+}
+a
+{
+    color: grey;
+    margin-right: 100px;
+    text-decoration: none;
+}
+ul
+{
+    list-style-type: none;
+    font-size: 25px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a:hover
+{
+    scale: 1.5;
+    color: black;
+}
+.hi
+{
+    color:grey;
+    font-size: 30px;
+}
+.content
+{
+    top: 40%;
+    left: 10%;
+    position: absolute;
+}
+.nm
+{
+    font-size: 80px;
+}
+.name{
+    color: black;
+}
+.but1
+{
+    height: 45px;
+    width: 180px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(24, 60, 144);
+    border-radius: 10px;
+}
+.but2
+{
+    height: 45px;
+    width: 180px;
+    font-size: medium;
+    border-color:rgb(55, 217, 217) ;
+    color: rgb(55, 217, 217);
+    border-radius: 10px;
+    background-color: rgb(200, 240, 240);
+}
+.but1:active,.but2:active
+{
+    color: black;
+    background-color: white;
+}
+.im
+{
+    height: 500px;
+    width: 500px;
+    padding-top: 1px;
+    margin-left: 50%;
+    
+}
+.i
+{
+    top:23%;
+    left: 45%;
+    border-radius: 15px 50px 30px 5px; 
+    position: absolute;
+    
+}
+p{
+    font-size: medium;
+}
+.c2
+{
+    top:95%;
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    position:absolute;
+}
+.p2
+{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+span
+{
+    color: aquamarine;
+}
+.cp2
+{
+    top: 30%;
+    left: 45%;
+    font-size: 20pxpx;
+    position: absolute;
+}
+.c3
+{
+    height: 70%;
+    width: 100%;
+    top: 180%;
+    left: 3%;
+    position: absolute;
+    text-align: center;
+}
+.c4
+{
+    height: 70%;
+    width: 100%;
+    top: 260%;
+    position: absolute;
+    background-color: white;
+
+}
+
